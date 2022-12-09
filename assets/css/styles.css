@@ -90,7 +90,15 @@ body {
 }
 
 .coa {
-  max-width: 240px;
+  max-width: 175px;
+}
+
+.coa2 {
+  max-width: 35px;
+}
+
+.coa3 {
+  max-width: 70px;
 }
 
 hr {
