@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Welcome to the National Data Warehouse landing page, use this page to naviagte to various dashboards, reports and documenation" />
-        <meta name="author" content="MoHSS" />
-        <title>National Data Warehouse - Ministry of Health & Social Services</title>
+        <meta name="description" content="Links to Reports on NDW" />
+        <meta name="author" content="MohSS" />
+        <title>Reports</title>
         <!-- Favicon-->
         <link rel="icon" type="image/png" href="assets/img/namibia_coat_of_arms_highres.png" />
         <!-- Font awesome icons-->
@@ -32,32 +32,38 @@
                     </ul>
                 </div>
             </div>
-        </nav>        
-        <!-- Header-->
-        <header class="py-5">
-            <div class="container px-lg-5">
-                <div class="p-4 p-lg-5 bg-white rounded-3 text-center">
-                    <div class="m-4 m-lg-5">
-                        <h2 class="">Republic of Namibia</h2>
-                        <a href="http://www.mhss.gov.na">
-                            <img src="assets/img/namibia_coat_of_arms_highres.png" alt="Republic of Namibia - Coat of Arms" class="responsive coa" />
-                        </a>
-                        <h2 class=" ">Ministry of Health & Social Services</h2>                    
-                         <h2 class="">Health Information and Research Directorate (HIRD)</h2>
-                        <h2 class="fw-bold">National Data Warehouse</h2>
-                        <p class="fs-4">Welcome to the NDW landing page, use this resource to navigate and access various dashboards, reports and documentation.</p>
-                        <p>
-                            <img src="assets/img/PEPFAR-Logo-Web-750x450.jpg" alt="PEPFAR-Namibia" class="responsive coa3" />&nbsp;
-                            <img src="assets/img/ucsf_logo.jpg" alt="UCSF-IGHS" class="responsive coa3" />
-                        </p>                       
-                    </div>
-                </div>
-            </div>
-        </header>
+        </nav>
         <!-- Page Content-->
         <section class="pt-4">
             <div class="container px-lg-5">
-               
+                <h2>Reports</h2>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">Title & Description</th>
+                        <th scope="col">Data Source</th>
+                        <th scope="col">Refresh Frequency</th>
+                      </tr>
+                    </thead>
+                    <tbody>                     
+                      <tr>
+                        <td style="max-width:500px;"><a href="https://ptracker.mhss.gov.na/dashboard/" target="_blank">PTracker PMTCT Reports</a>
+                            <p>Reports on PMTCT generated from the PTracker EMR dataset.</p>
+                        </td>
+                        <td>PTracker</td>
+                        <td>Daily</td>
+                      </tr>
+                      <tr>
+                        <td style="max-width:500px;"><a href="https://namibia.trace-recency.org/dashboards.html" target="_blank">TRACE - Recency Surveillance Reports</a>
+                            <p>Reports on Rapid tests for recent HIV infection (RTRI) surveillance reporting between recent (i.e. in the past 12 months) and long-term HIV infections.</p>
+                        </td>
+                        <td>HTS / Study</td>
+                        <td>Daily</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <br>
             </div>
         </section>
         <!-- Footer-->
