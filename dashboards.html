@@ -3,9 +3,9 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Access to Dashboards & Reports on NDW" />
+        <meta name="description" content="Links to Dashboards on NDW" />
         <meta name="author" content="MohSS" />
-        <title>Dashboards & Reports</title>
+        <title>Dashboards</title>
         <!-- Favicon-->
         <link rel="icon" type="image/png" href="assets/img/namibia_coat_of_arms_highres.png" />
         <!-- Font awesome icons-->
@@ -22,47 +22,118 @@
                     National Data Warehouse </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://mhss.gov.na">MoHSS Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="dashboards.html">Dashboards & Reports</a></li>
-                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://mohss-his.atlassian.net/wiki/spaces/NDW">Documentation</a></li>
-                        <li class="nav-item"><a class="nav-link" target="_blank" href="https://mohss-his.atlassian.net/wiki/spaces/NDW/pages/12713987/How+to+get+access">How to get access</a></li>
-                    </ul>
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="dashboards.html">Dashboards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reports.html">Reports</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://mohss-his.atlassian.net/wiki/spaces/NDW">Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="access.html">Access</a></li>
+                    <li class="nav-item"><a class="nav-link" href="acknowledgements.html">Partners</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://mhss.gov.na">MHSS</a></li>
+                </ul>
                 </div>
             </div>
         </nav>
         <!-- Page Content-->
         <section class="pt-4">
             <div class="container px-lg-5">
-                <!-- Page Features-->
-                <div class="card">
-                    <h5 class="card-header">Dashboards</h5>
-                    <div class="card-body">
-                      <a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EPMS/EPMS Quantum Dashboard?rs:embed=true" target="_blank"><h5 class="card-title">ART Dashboard</h5></a>
-                      <p class="card-text">Patients active on Anti-Retroviral Therapy Treatment for 2021 illustration.</p>
-                    </div>
-                    <div class="card-body">
-                      <a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EDT/EDT%20Dashboard?rs:embed=true"  target="_blank"><h5 class="card-title">EDT Dashboard</h5></a>
-                      <p class="card-text">Pill counts by Patients active on Anti-Retroviral Therapy Treatment for 2021.</p>
-                    </div>
-                    <div class="card-body">
-                        <a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/DHIS2/DHIS2_Dashboard_1?rs:embed=true"  target="_blank"><h5 class="card-title">DHIS2 Dashboard</h5></a>
-                        <p class="card-text">Deliveries by C-Section over last 5 years.</p>
-                    </div>
-
-                    <div class="card-body">
-                        <a href="https://ptracker.mhss.gov.na/dashboard/"  target="_blank"><h5 class="card-title">PTracker Dashboard and Reports</h5></a>
-                        <p class="card-text">PMTCT Overview since 2017.</p>
-                    </div>
-                  </div>
-                  <hr>
-                  <div class="card">
-                    <h5 class="card-header">Reports</h5>
-                    <div class="card-body">
-                        <p class="card-text"><small class="text-muted">No report available</small></p> 
-                    </div>
-                  </div>
-                  <hr>
+                <h2>Dashboards</h2>
+                <table class="table table-hover">
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Title & Description</th>
+                        <th scope="col">Data Source</th>
+                        <th scope="col">Refresh</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EPMS/EPMS%20Quantum%20Dashboard?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 1</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EPMS/EPMS%20Quantum%20Dashboard?rs:embed=true" target="_blank">HIV Care & Treatment Dashboard</a>
+                            <p>Showcasing an overview of trends in HIV treatment, including current patients on treatment, new patients initiated on treatment, viral load monitoring, and the intersection of tuberculosis and HIV co-infection.</p>
+                        </td>
+                        <td>EPMS Quantum</td>
+                        <td>Monthly</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EDT/EDT%20Dashboard?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 2</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/EDT/EDT%20Dashboard?rs:embed=true" target="_blank">Dashboard on Pharmacy Drug Pick Ups</a>
+                            <p>
+                                Provides a succinct visual summary of HIV treatment adherence by tracking and analyzing medication pick-up patterns.
+                            </p>
+                        </td>
+                        <td>EPMS Quantum</td>
+                        <td>Quarterly</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/Malaria/DHIS2%20Malaria%20Dashboard?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 3</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/Malaria/DHIS2%20Malaria%20Dashboard?rs:embed=true" target="_blank">Dashboard on Malaria Impact Indicators</a>
+                            <p>
+                                A comprehensive visual insight into key malaria program indicators, including incidence rates, diagnostic testing coverage, treatment effectiveness, and distribution of insecticide-treated bed nets.
+                            </p>
+                        </td>
+                        <td>Malaria (DHIS2 Tracker)</td>
+                        <td>Weekly</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/TB/TB%20Dashboard?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 4</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/TB/TB%20Dashboard?rs:embed=true" target="_blank">TB Programme Overview Dashboard</a>
+                            <p>
+                                A comprehensive visual representation of key TB programme metrics, encompassing case detection rates, treatment success, drug resistance trends.
+                            </p>
+                        </td>
+                        <td>TB Tracker, e-TB Manager</td>
+                        <td>Weekly</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://ptracker.mhss.gov.na/dashboard/" target="_blank" class="btn btn-sm btn-primary">NDW 5</a></th>
+                        <td style="max-width:500px;"><a href="https://ptracker.mhss.gov.na/dashboard/" target="_blank">PTracker PMTCT Overview Dashboard</a>
+                            <p>
+                                Dashboard showcasing an overview of the PMTCT programme generated from the PTracker EMR dataset.
+                            </p>
+                        </td>
+                        <td>PTracker</td>
+                        <td>Daily</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Cesarean%20section?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 7</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Cesarean%20section?rs:embed=true" target="_blank">Dashboard on Cesarean Section Deliveries</a>
+                            <p>
+                                Key metrics and data visualizations related to cesarean deliveries, offering insights into their frequency, reasons, outcomes, and trends.                             </p>
+                        </td>
+                        <td>DHIS2 Inpatient</td>
+                        <td>Daily</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Bed%20Occupancy?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 8</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Bed%20Occupancy?rs:embed=true" target="_blank">Dashboard on Bed Occupancy</a>
+                            <p>Showcase of data visualizations of MHSS facility bed utilization, including occupancy rates, types of patients, and trends.</p>
+                        </td>
+                        <td>DHIS2 Inpatient</td>
+                        <td>Daily</td>
+                      </tr>
+                      <tr>
+                        <th scope="row"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Mortality?rs:embed=true" target="_blank" class="btn btn-sm btn-primary">NDW 9</a></th>
+                        <td style="max-width:500px;"><a href="https://dashboards.mhss.gov.na/PBIReports/powerbi/HIS/Mortality?rs:embed=true" target="_blank">Dashboard on Mortality</a>
+                           <p>
+                             Presents essential metrics and visual representations of death rates, causes of death, demographic patterns, and temporal variations.
+                          </p>
+                        </td>
+                        <td>DHIS2 Inpatient</td>
+                        <td>Daily</td>
+                      </tr>                    
+                      <tr>
+                        <th scope="row"><a href="https://namibia.trace-recency.org/dashboards.html" target="_blank" class="btn btn-sm btn-primary">NDW 10</a></th>
+                        <td style="max-width:500px;"><a href="https://namibia.trace-recency.org/dashboards.html" target="_blank">TRACE - Recency Surveillance Reporting Dashboards</a>
+                            <p>Dashboard on Rapid tests for recent HIV infection (RTRI) surveillance reporting between recent (i.e. in the past 12 months) and long-term HIV infections.</p>
+                        </td>
+                        <td>HTS / Study</td>
+                        <td>Daily</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <br>
             </div>
         </section>
         <!-- Footer-->
